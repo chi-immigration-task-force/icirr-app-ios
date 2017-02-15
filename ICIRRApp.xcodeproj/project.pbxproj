@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350482011E53EA380040A1B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350482001E53EA380040A1B3 /* main.m */; };
+		350482041E53EA380040A1B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350482031E53EA380040A1B3 /* AppDelegate.m */; };
+		350482071E53EA380040A1B3 /* KnowYourRightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350482061E53EA380040A1B3 /* KnowYourRightsViewController.m */; };
+		3504820A1E53EA380040A1B3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350482091E53EA380040A1B3 /* MapViewController.m */; };
+		3504820F1E53EA380040A1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3504820E1E53EA380040A1B3 /* Assets.xcassets */; };
+		3517DDAE1E540CF400793EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517DDAD1E540CF400793EAF /* LaunchScreen.storyboard */; };
+		3517DDD91E54114A00793EAF /* GetInvolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3517DDD81E54114A00793EAF /* GetInvolvedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350481FC1E53EA380040A1B3 /* ICIRRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICIRRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350482001E53EA380040A1B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		350482021E53EA380040A1B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		350482031E53EA380040A1B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		350482051E53EA380040A1B3 /* KnowYourRightsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnowYourRightsViewController.h; sourceTree = "<group>"; };
+		350482061E53EA380040A1B3 /* KnowYourRightsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowYourRightsViewController.m; sourceTree = "<group>"; };
+		350482081E53EA380040A1B3 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		350482091E53EA380040A1B3 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3504820E1E53EA380040A1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350482131E53EA380040A1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3517DDAD1E540CF400793EAF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3517DDD71E54114A00793EAF /* GetInvolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetInvolvedViewController.h; sourceTree = "<group>"; };
+		3517DDD81E54114A00793EAF /* GetInvolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetInvolvedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350481F91E53EA380040A1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350481F31E53EA380040A1B3 = {
+			isa = PBXGroup;
+			children = (
+				350481FE1E53EA380040A1B3 /* ICIRRApp */,
+				350481FD1E53EA380040A1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350481FD1E53EA380040A1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350481FC1E53EA380040A1B3 /* ICIRRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350481FE1E53EA380040A1B3 /* ICIRRApp */ = {
+			isa = PBXGroup;
+			children = (
+				350482021E53EA380040A1B3 /* AppDelegate.h */,
+				350482031E53EA380040A1B3 /* AppDelegate.m */,
+				3517DDD71E54114A00793EAF /* GetInvolvedViewController.h */,
+				3517DDD81E54114A00793EAF /* GetInvolvedViewController.m */,
+				350482051E53EA380040A1B3 /* KnowYourRightsViewController.h */,
+				350482061E53EA380040A1B3 /* KnowYourRightsViewController.m */,
+				350482081E53EA380040A1B3 /* MapViewController.h */,
+				350482091E53EA380040A1B3 /* MapViewController.m */,
+				3504820E1E53EA380040A1B3 /* Assets.xcassets */,
+				350482131E53EA380040A1B3 /* Info.plist */,
+				3517DDAD1E540CF400793EAF /* LaunchScreen.storyboard */,
+				350481FF1E53EA380040A1B3 /* Supporting Files */,
+			);
+			path = ICIRRApp;
+			sourceTree = "<group>";
+		};
+		350481FF1E53EA380040A1B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350482001E53EA380040A1B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350481FB1E53EA380040A1B3 /* ICIRRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350482161E53EA380040A1B3 /* Build configuration list for PBXNativeTarget "ICIRRApp" */;
+			buildPhases = (
+				350481F81E53EA380040A1B3 /* Sources */,
+				350481F91E53EA380040A1B3 /* Frameworks */,
+				350481FA1E53EA380040A1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICIRRApp;
+			productName = ICIRRApp;
+			productReference = 350481FC1E53EA380040A1B3 /* ICIRRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350481F41E53EA380040A1B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chi Immigration Task Force";
+				TargetAttributes = {
+					350481FB1E53EA380040A1B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 350481F71E53EA380040A1B3 /* Build configuration list for PBXProject "ICIRRApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350481F31E53EA380040A1B3;
+			productRefGroup = 350481FD1E53EA380040A1B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350481FB1E53EA380040A1B3 /* ICIRRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350481FA1E53EA380040A1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3504820F1E53EA380040A1B3 /* Assets.xcassets in Resources */,
+				3517DDAE1E540CF400793EAF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350481F81E53EA380040A1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3504820A1E53EA380040A1B3 /* MapViewController.m in Sources */,
+				350482041E53EA380040A1B3 /* AppDelegate.m in Sources */,
+				3517DDD91E54114A00793EAF /* GetInvolvedViewController.m in Sources */,
+				350482071E53EA380040A1B3 /* KnowYourRightsViewController.m in Sources */,
+				350482011E53EA380040A1B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		350482141E53EA380040A1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350482151E53EA380040A1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350482171E53EA380040A1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICIRRApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chiimmtaskforce.ICIRRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		350482181E53EA380040A1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICIRRApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chiimmtaskforce.ICIRRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350481F71E53EA380040A1B3 /* Build configuration list for PBXProject "ICIRRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350482141E53EA380040A1B3 /* Debug */,
+				350482151E53EA380040A1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350482161E53EA380040A1B3 /* Build configuration list for PBXNativeTarget "ICIRRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350482171E53EA380040A1B3 /* Debug */,
+				350482181E53EA380040A1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350481F41E53EA380040A1B3 /* Project object */;
+}
